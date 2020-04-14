@@ -15,15 +15,21 @@ export default class ProfileCard extends React.Component<IProfileCardProps> {
                     <Card.Content>
                         <Card.Header>{userName}</Card.Header>
                         <Card.Meta>
-                            <span className='date'>Joined in 2015</span>
+                            <span className='date'>Joined in 2018</span>
                         </Card.Meta>
                         <Card.Description>
-                            Matthew is a musician living in Nashville.
+                            {userName} is a Software Developer working with React.
+                        </Card.Description>
+                        <Card.Description>
+                            {userName} loves Pizza with Pineapple toppings.
+                        </Card.Description>
+                        <Card.Description>
+                            {userName} lives Edmonton.
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
                         <Icon name='user' />
-                        22 Friends
+                        {userName} has 22 friends
                     </Card.Content>
                 </Card>
             </React.Fragment>
